@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(228, 228, 72);
+  
+}
+
+.chat-container {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.chat-box {
+  height: 300px;
+  padding: 10px;
+  overflow-y: scroll;
+  border-bottom: 1px solid #ccc;
+  background-color: rgb(180, 187, 169);
+}
+
+.input-container {
+  display: flex;
+  padding: 10px;
+}
+
+#message-input {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+#send-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: pink;
+}
+#send-button:hover{
+  background-color: aqua;
+}
+
+.message {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.user-message {
+  background-color: #d3e8ff;
+  align-self: flex-start;
+}
+
+.bot-message {
+  background-color: #f2f2f2;
+  align-self: flex-end;
+}
+
+.timestamp {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.app-logo {
+  text-align: center;
+  padding: 10px;
+}
+
+
+
