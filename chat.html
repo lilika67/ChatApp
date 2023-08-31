@@ -4,22 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Chat App</title>
 </head>
 <body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="C:\Users\Liliane\Downloads\applogo.png" alt="Chat App Logo">
+      </div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#chat">Chat</a>
+        <a href="#settings">Settings</a>
+      </div>
+    </nav>
   
-  <div class="app-logo">
-    <img src="C:\Users\Liliane\Downloads\applogo.png" alt="ChatApp logo">
-  </div>
+  
   <div class="chat-container">
-    <div class="chat-box" id="chat-box"></div>
+    
+<input class="search" type="text" id="message" placeholder="search conversation">
+    <button id="search-button" class="search-button"><i class="fas fa-search"></i></button>
+  
+  <div class="chat-box" id="chat-box"></div>
+  
     <div class="input-container">
       <input type="text" id="message-input" placeholder="Enter your message...(ex.Muraho!)">
       <button id="send-button">Send</button>
     </div>
   </div>
   <div>
-    
+
   </div>
   <script src="script.js"></script>
 </body>
